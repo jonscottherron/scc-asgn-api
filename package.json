@@ -1,0 +1,20 @@
+{
+  "name": "scc-asgn-api",
+  "version": "1.0.0",
+  "description": "project 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "scc-asgn-api"
+  },
+  "author": "Jon Herron",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  }
+}
