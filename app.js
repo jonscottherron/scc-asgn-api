@@ -28,7 +28,7 @@ if(!db) {
     console.log("DB connected successfully");
 }
 
-var port = 8080;
+var port = 440;
 
 app.use("/api", apiRouter);
 
