@@ -10,6 +10,7 @@ const mongoose = require("mongoose");
 var assignmentSchema = mongoose.Schema({
 	courseName: {
 		type: String,
+		required: true
 		
 	},
 	assignmentName: {
@@ -17,7 +18,8 @@ var assignmentSchema = mongoose.Schema({
 		required: true
 	},
 	dueDate:{
-		type: Date
+		type: Date,
+		required: true
 	}
 });
 
