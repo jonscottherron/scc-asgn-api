@@ -13,12 +13,10 @@ const apiRouter = require("./asgn-router.js");
 let mongoose = require("mongoose");
 let bodyParser = require("body-parser");
 
-// set up mongoose and body-parser
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(bodyParser.json());
 
-// connect to mongoose
 mongoose.connect("mongodb://localhost/asgn-api", { useNewUrlParser: true});
 var db = mongoose.connection;
 
